@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C12B0F62B162C5E00670567 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12B0F52B162C5E00670567 /* InfoPanelView.swift */; };
+		0C12B0F82B16374400670567 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12B0F72B16374400670567 /* ControlImageView.swift */; };
 		0C7001422B152928007F29FE /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7001412B152928007F29FE /* PinchApp.swift */; };
 		0C7001442B152928007F29FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7001432B152928007F29FE /* ContentView.swift */; };
 		0C7001462B15292A007F29FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7001452B15292A007F29FE /* Assets.xcassets */; };
 		0C7001492B15292A007F29FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7001482B15292A007F29FE /* Preview Assets.xcassets */; };
+		0CF4B7072B164C00009A74DB /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4B7062B164C00009A74DB /* PageModel.swift */; };
+		0CF4B7092B164C5F009A74DB /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4B7082B164C5F009A74DB /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C12B0F52B162C5E00670567 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		0C12B0F72B16374400670567 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 		0C70013E2B152928007F29FE /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7001412B152928007F29FE /* PinchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchApp.swift; sourceTree = "<group>"; };
 		0C7001432B152928007F29FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C7001452B15292A007F29FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C7001482B15292A007F29FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CF4B7062B164C00009A74DB /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		0CF4B7082B164C5F009A74DB /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		0C7001502B153654007F29FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0C12B0F52B162C5E00670567 /* InfoPanelView.swift */,
+				0C12B0F72B16374400670567 /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +98,7 @@
 		0C7001512B153659007F29FE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0CF4B7062B164C00009A74DB /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 		0C7001522B15365E007F29FE /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				0CF4B7082B164C5F009A74DB /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -169,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C12B0F82B16374400670567 /* ControlImageView.swift in Sources */,
+				0CF4B7072B164C00009A74DB /* PageModel.swift in Sources */,
 				0C7001442B152928007F29FE /* ContentView.swift in Sources */,
 				0C7001422B152928007F29FE /* PinchApp.swift in Sources */,
+				0CF4B7092B164C5F009A74DB /* PageData.swift in Sources */,
+				0C12B0F62B162C5E00670567 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
